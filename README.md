@@ -33,10 +33,10 @@ This is a **Wikipedia Search Engine** built using React and the Wikipedia API. I
    ```
 4. Start the development server:
    ```bash
-   npm start
+   npm run dev
    ```
 
-The app should now be running at `http://localhost:3000`.
+The app should now be running at `http://localhost:5173`.
 
 ## API Reference
 
@@ -76,7 +76,7 @@ src/
 
 - Add pagination for large search results.
 - Include a search history feature.
-- Add loading indicators for better user experience.
+
 
 ## License
 
