@@ -51,11 +51,14 @@ https://apis.ccbp.in/wiki-search?search={query}
 ```
 src/
 ├── components/
-│   └── Result.js         # Component for displaying search results
-├── App.js                # Main app component
-├── index.js              # React entry point
-├── index.css             # Tailwind CSS imports
-└── README.md             # This file
+│   ├── Navbar.jsx         # Navigation bar component
+│   ├── Search.jsx         # Search bar component
+│   └── Result.jsx         # Component for displaying search results
+├── App.jsx                # Main app component
+├── index.js               # React entry point
+├── index.css              # Tailwind CSS imports
+├── main.css               # Additional custom styles
+└── README.md              # This file
 ```
 
 ## Hooks Used
