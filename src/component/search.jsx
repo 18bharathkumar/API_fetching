@@ -2,7 +2,6 @@ import { useState } from "react";
 import Result from "./result";
 
 export default function Search() {
-  const [showResult, setShowResult] = useState(false); // state to track form submission
   const [input, setInput] = useState(""); // state to store input value
 
   const handleSubmit = (e) => {
@@ -97,7 +96,7 @@ export default function Search() {
       </form>
 
       {/* Conditionally render Result component */}
-      {showResult && <Result input={input} />}
+      {input? <Result input={input} />:null}
     </>
   );
 }
