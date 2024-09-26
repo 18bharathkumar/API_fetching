@@ -56,8 +56,7 @@ src/
 │   └── Result.jsx         # Component for displaying search results
 ├── App.jsx                # Main app component
 ├── index.js               # React entry point
-├── index.css              # Tailwind CSS imports
-├── main.css               # Additional custom styles
+├── index.css              # Tailwind CSS imports           
 └── README.md              # This file
 ```
 
